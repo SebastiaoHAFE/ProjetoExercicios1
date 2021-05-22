@@ -35,18 +35,41 @@ public  class  ProjetoEmpregoNovo {
 			double media = (nota1 + nota2 + nota3 + nota4) / 4;
 			
 			if(media >= 70) {
-				System.out.println("O Aluno esta Aprovado " + media);
+				System.out.println("O Aluno esta Aprovado: Media " + media);
 			}else if(media >= 40 && media <= 69) {
-				System.out.println("O Aluno ficou em Recuperação " + media);
+				System.out.println("O Aluno ficou em Recuperação: Media " + media);
 			}else {
-				System.out.println("O Aluno Foi Reprovado " + media);
+				System.out.println("O Aluno Foi Reprovado: Media " + media);
 			
 			}
 	
 			System.out.println("-----------------------------------------------------------");
 
-	
-	
+	/* OPERAÇÕES MATEMATICAS */
+			
+			double raiz1 = Math.sqrt(45);
+			
+			System.out.println("O Valor a Raiza Quadrada de 45 é ? ");
+			System.out.println("Resultado: " + raiz1);
+			
+
+			double potencia = Math.pow(2, 3);
+			
+			System.out.println("Qual é a Potencia de 2 sobre 3 ?");
+			System.out.println("Resultado: " + potencia);
+			
+			int sub = (15 + 45);
+			
+			System.out.println("o Resultado dessa soma é ?");
+			System.out.println("Resultado: " + sub);
+			
+			int menos = (534 - 357);
+			
+			System.out.println("O Resultado da conta de menos é ?");
+			System.out.println("Resultado: " + menos);
+			
+			System.out.println("-----------------------------------------------------------");
+
 	
 	}
 }
