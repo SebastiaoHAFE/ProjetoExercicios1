@@ -52,17 +52,22 @@ public  class  ProjetoEmpregoNovo {
 			System.out.println("O Valor a Raiza Quadrada de 45 é ? ");
 			System.out.println("Resultado: " + raiz1);
 			
+			System.out.println("-----------------------------------------------------------");
 
 			double potencia = Math.pow(2, 3);
 			
 			System.out.println("Qual é a Potencia de 2 sobre 3 ?");
 			System.out.println("Resultado: " + potencia);
 			
+			System.out.println("-----------------------------------------------------------");
+
 			int sub = (15 + 45);
 			
 			System.out.println("o Resultado dessa soma é ?");
 			System.out.println("Resultado: " + sub);
 			
+			System.out.println("-----------------------------------------------------------");
+
 			int menos = (534 - 357);
 			
 			System.out.println("O Resultado da conta de menos é ?");
@@ -70,6 +75,34 @@ public  class  ProjetoEmpregoNovo {
 			
 			System.out.println("-----------------------------------------------------------");
 
+			double dividir = (45 / 3);
+			
+			System.out.println("Qual Sera O resultado dessa Divisão ?");
+			System.out.println("Resultado: " + dividir);
+			
+			System.out.println("-----------------------------------------------------------");
+
+			int multiplicar = (45 * 9);
+			
+			System.out.println("Qual sera o resultado dessa multiplicação ?");
+			System.out.println("Resultado: " + multiplicar);
+			
+			System.out.println("-----------------------------------------------------------");
+
+	
+			/* OPERAÇÕES COM FOR E BREAK SISTEMA DE REPETIÇÃO */
+			
+			for( int numero = 50; numero >= 0 ; numero --) {
+				if ( numero == 35);
+				System.out.println("Legal Achei o numero 35 !");
+				System.out.println("Stop Numero Encontrado");
+		        break;
+			}
+			
+			
+	
+	
 	
 	}
+	
 }
